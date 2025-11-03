@@ -21,8 +21,8 @@ app.add_middleware(
 )
 
 BASE_DIR = Path(__file__).resolve().parent
-model_path = BASE_DIR / "models" / "Arona_president.pth"
-index_path = BASE_DIR / "models" / "Arona_president.index"
+model_path = BASE_DIR / "models" / "Arona.pth"
+index_path = BASE_DIR / "models" / "Arona.index"
 
 logger.info("Loading TTS-RVC model...")
 try:
